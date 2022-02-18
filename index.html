@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+             
+         <div class="left">
+            <div class="head">
+                    <h1>Correct</h1>
+            </div>
+            <div class="holder" id="l-holder">
+               <div class="t-box">orange</div>
+            </div>
+         </div>
+         <div class="center">
+             <div class="head">
+                    <h1>Words</h1>
+            </div>
+           
+           <div class="center-box">
+           <!--Floating area container and inside f box-->
+                <div class="float-area">
+                     <div class="f-box" id="float">orange</div>
+                </div>
+                  <div class="input-container">
+                    <input type="text" placeholder="Enter text....." autofocus>
+                    <div class="score-container">
+                        <h1 id="score">0</h1>
+                     </div>
+                  </div>
+                  
+           </div>
+
+         </div>
+         <div class="right">  
+            <div class="head">
+                    <h1>InCorrect</h1>
+                </div>
+            <div class="holder"  id="r-holder">
+               <div class="t-box">orange</div>
+            </div>    
+         </div>
+    </div>
+    <div class="score-alert">
+     <div class="form-container">
+         <div class="cross">X</div>
+         <div class="form">
+               <h1>Score</h1>
+               <h2 id="display">0</h2> 
+         </div>
+         <div><button>Retry</button></div>
+      </div>   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
